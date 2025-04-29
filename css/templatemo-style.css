@@ -413,19 +413,22 @@ p, .tm-text-gray { color: #999; }
 /***** Ming *****/
 /*---------------*/
 
-#play-button {
-    opacity: .5;
+.play-button {
+    opacity: .5 !important;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(1.5);
 	transform: scale(1.5);
-    width: 50%;
-    height: auto;
+    width: 50% !important;
+    height: auto !important;
 }
-#play-button:hover {
-    opacity: .8;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
+.play-button:hover {
+    opacity: .8 !important;
+	-webkit-transition: opacity 400ms ease-in-out;
+    -moz-transition: box-opacity 400ms ease-in-out;
+    -ms-transition: box-opacity 400ms ease-in-out;
+    -o-transition: box-opacity 400ms ease-in-out;
+    transition: box-opacity 400ms ease-in-out;
 	-webkit-transform: scale(1.5);
 	transform: scale(1.5);
     width: 50%;
