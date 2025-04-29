@@ -190,8 +190,17 @@ a:hover { color:#009999; }
 .navbar-brand i { font-size: 2rem; }
 
 .tm-hero {
-    min-height: 200px;
+    min-height: 600px;
     background: transparent;
+}
+
+.tm-hero img:hover{
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
 }
 
 .tm-mt-60 { margin-top: 60px; }
@@ -289,6 +298,37 @@ p, .tm-text-gray { color: #999; }
     opacity: 0.8;
 }
 
+#source-img:hover {
+    -webkit-filter: opacity(.5);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+    min-height: 105%;
+    max-width: 105%;
+}
+
+.tm-video-item figure:hover {
+    -webkit-filter: opacity(.5);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+    min-height: 105%;
+    max-width: 105%;
+}
+
+.vid-bg:hover {
+    -webkit-filter: opacity(.5);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
 .tm-video-item figcaption {
     padding: 2em;
     color: #fff;
@@ -372,6 +412,25 @@ p, .tm-text-gray { color: #999; }
 /*---------------*/
 /***** Ming *****/
 /*---------------*/
+
+#play-button {
+    opacity: .5;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+    width: 50%;
+    height: auto;
+}
+#play-button:hover {
+    opacity: .8;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+    width: 50%;
+    height: auto;
+}
 
 figure.effect-ming {
 	background: #030c17;
