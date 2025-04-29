@@ -3965,8 +3965,8 @@ progress {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: .5rem;
-    padding-bottom: .5rem
+    padding-top: 1rem;
+    padding-bottom: 2rem
 }
 
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
@@ -4003,7 +4003,7 @@ progress {
 
 .navbar-text {
     padding-top: .5rem;
-    padding-bottom: .5rem
+    padding-bottom: 1.5rem
 }
 
 .navbar-collapse {
