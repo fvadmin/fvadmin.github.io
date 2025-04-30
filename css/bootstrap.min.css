@@ -4,7 +4,8 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- @font-face { font-family: Nunito; src: url('fonts/Nunito/static/Nunito-Regular.ttf'); } 
+ @font-face { font-family: Nunito; src: url('fonts/Nunito/static/Nunito-Regular.ttf'); }
+ @font-face { font-family: Nunito-Light; src: url('fonts/Nunito/static/Nunito-Light.ttf'); } 
 
  :root {
     --bs-blue: #0d6efd;
@@ -253,7 +254,7 @@ kbd kbd {
 }
 
 figure {
-    margin: 0 0 1rem
+    margin: 0 0 .5rem
 }
 
 img, svg {
@@ -7022,7 +7023,7 @@ progress {
 }
 
 .mb-5 {
-    margin-bottom: 3rem !important
+    margin-bottom: 2rem !important
 }
 
 .mb-auto {
